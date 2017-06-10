@@ -50,6 +50,7 @@
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> Welcome : <?php echo $_SESSION["sess_id"]; ?><?php if(!empty($numindex)){ ?><span class="badge"><? echo $numindex; ?></span><?php }?> <span class="caret"></span></a>
 						<ul class="dropdown-menu" role="menu">
+							<li><a href="team.php"><span class="glyphicon glyphicon-globe"></span> Team</a></li>
 							<li><a href="edit_profile.php"><span class="glyphicon glyphicon-pencil"></span> Edit Profile</a></li>
 							<li><a href="classes/logout.php"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
 						</ul>
