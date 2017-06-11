@@ -252,12 +252,14 @@ include("menu.php");
 			</div>	
 		</div>
 	</div>
-</div>
+
 
 <hr>
 
 <?php
 include("footer.php");
 ?>
+
+</div>
 </body>
 </html>
